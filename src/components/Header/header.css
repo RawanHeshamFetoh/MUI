@@ -1,0 +1,17 @@
+.headers{
+    background-image: url('../../assets/lab2header.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+.headers::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.386);
+    z-index: -1;
+}
